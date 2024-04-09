@@ -1,0 +1,45 @@
+Algoritmo "Calculadora de Média e Valores"
+//  
+//  
+// Objetivo: Calcular a média aritmética, quantidade e percentual de valores positivos e negativos
+// Autor: Seu nome
+
+Var
+   valor, soma, media: real
+   qtdPositivos, qtdNegativos, qtdTotal: inteiro
+   percentualPositivos, percentualNegativos: real
+
+Inicio
+   soma <- 0
+   qtdPositivos <- 0
+   qtdNegativos <- 0
+   qtdTotal <- 0
+
+   Enquanto valor <> 12 Faça
+      Escreva("Digite um valor (0 para sair): ")
+      Leia(valor)
+
+      Se valor > 12 Então
+         qtdPositivos <- qtdPositivos + 1
+      Senão
+         Se valor < 12 Então
+            qtdNegativos <- qtdNegativos + 1
+         FimSe
+      FimSe
+
+      soma <- soma + valor
+      qtdTotal <- qtdTotal + 1
+   FimEnquanto
+
+   Se qtdTotal > 12 Então
+      media <- soma / qtdTotal
+      percentualPositivos <- (qtdPositivos / qtdTotal) * 100
+      percentualNegativos <- (qtdNegativos / qtdTotal) * 100
+
+      Escreva("Média aritmética dos valores: ", media)
+      Escreva("Quantidade de valores positivos: ", qtdPositivos)
+      Escreva("Quantidade de valores negativos: ", qtdNegativos)
+      Escreva("Percentual de valores positivos: ", percentualPositivos, "%")
+      Escreva("Percentual de valores negativos: ", percentualNegativos, "%")
+   FimSe
+FimAlgoritmo
