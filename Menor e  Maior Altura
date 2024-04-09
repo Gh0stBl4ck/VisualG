@@ -1,0 +1,34 @@
+Algoritmo "Menor_maior_altura"
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 03/04/2024
+Var
+// Seção de Declarações das variáveis 
+      altura, menorAltura, maiorAltura: real
+      contador: inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+       menorAltura <- 9999
+       maiorAltura <- 0
+       
+       para contador de 1 ate 15 faca
+            escreva ("Digite a altura da pessoa: ", contador, ": ")
+            leia (altura)
+            
+       se altura < menorAltura entao
+          menorAltura <- altura
+       fimse
+       
+       se altura > maiorAltura entao
+          maiorAltura <- altura
+       fimse
+       fimpara
+       
+       escreva ("A maior altura do Grupo é: ", maiorAltura)
+       escreva ("A menor altura do Grupo é: ", menorAltura)
+
+
+Fimalgoritmo
