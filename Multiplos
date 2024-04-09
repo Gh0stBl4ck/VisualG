@@ -1,0 +1,30 @@
+Algoritmo "pratica2"
+//  
+//  
+// 
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 29/03/2024
+Var
+// Seção de Declarações das variáveis 
+      Numero, multiplo1, multiplo2: real
+
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+     numero <- 0
+     multiplo1 <- 0
+     multiplo2 <- 0
+     
+     escreva (" Digite um numero: ")
+     leia (numero)
+     
+     multiplo1 <- (numero) *2
+     multiplo2 <- (numero) *3
+     
+     escreva ("Os multiplos do seu numero sao: ", multiplo1, multiplo2)
+     
+     
+
+Fimalgoritmo
