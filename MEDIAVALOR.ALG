@@ -1,4 +1,6 @@
 Algoritmo "mediavalor"
+//  
+//  
 // 
 //  
 // Descrição   : Aqui você descreve o que o programa faz! (função)
